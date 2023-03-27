@@ -1,0 +1,23 @@
+/*
+    Name: Prasiddhi Gyawali
+    Assignment: PA 8
+    Description: This is the CSS file for PA8,
+    it sizes the divs appropraitely to meet the
+    standards expected in the spec.
+*/
+
+html{
+    margin: -1vh;
+}
+
+h1 {
+    margin: 15px;
+}
+
+.input{
+    margin: 15px;
+}
+
+label{
+    color:black;
+}

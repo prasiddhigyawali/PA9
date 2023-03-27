@@ -1,0 +1,67 @@
+<!--
+    Name: Prasiddhi Gyawali
+    Assignment: PA 8
+    Description: This is the HTML file
+    for PA8. It displays the chat window.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">  
+        <title>Ostaa</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./ostaa.js"></script>
+    </head>
+    <body>
+        <Form>
+            <div class="user">
+                <h1>Add User</h1>
+                <div class="input">
+                    <label for="username">Username: </label>
+                    <input type="text" id="username">
+                </div>
+                <div class="input">
+                    <label for="pass">Password: </label>
+                    <input type="password" id="pass">
+                </div>
+                <div class="input">
+                    <input type="button" onclick="addUser()" value="Add User">
+                </div>
+            </div>
+        </Form>
+
+        <Form>
+            <div class="item">
+                <h1>Add Item</h1>
+                <div class="input">
+                    <label for="title">Title: </label>
+                    <input type="text" id="title">
+                </div>
+                <div class="input">
+                    <label for="desc">Desc: </label>
+                    <input type="text" id="desc">
+                </div>
+                <div class="input">
+                    <label for="img">Image: </label>
+                    <input type="text" id="img">
+                </div>
+                <div class="input">
+                    <label for="price">Price: </label>
+                    <input type="number" id="price">
+                </div>
+                <div class="input">
+                    <label for="stat">Status: </label>
+                    <input type="text" id="stat">
+                </div>
+                <div class="input">
+                    <label for="sellerUser">Username: </label>
+                    <input type="text" id="sellerUser">
+                </div>
+                <div class="input">
+                    <input type="button" onclick="addItem()" value="Add Item">
+                </div>
+            </div>
+        </Form>
+    </body>
+</html>
